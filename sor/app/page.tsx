@@ -22,19 +22,19 @@ const Home = () => {
 
 	return (
 		<main className='flex flex-col items-center w-full h-screen px-4 py-10 bg-gray-900'>
-			<h1 className='font-sans text-5xl text-center mb-6'>Sunrise Of The Reaping GPT</h1>
+			<h1 className='font-rakkas text-5xl text-center mb-6'>Sunrise Of The Reaping GPT</h1>
 
 			<section
 				className={`${
 					noMessages
 						? 'flex flex-col items-center justify-center w-full h-full'
-						: 'flex flex-col justify-end w-full h-full overflow-y-auto pb-28'
+						: 'flex flex-col justify-end w-4/6 h-full overflow-y-auto pb-28'
 				} transition-all duration-300`}
 			>
 				{noMessages ? (
 					<>
 						<p className='text-lg text-gray-600 text-center max-w-xl'>
-							Ask SOR GPT anything about the SOR book.
+							Ask anything about the Sunrise Of The Reaping book.
 						</p>
 						<br />
 						<PromptSuggestionRow onPromptClick={handlePrompt} />
@@ -48,19 +48,19 @@ const Home = () => {
 
 				<div
 					className={`${
-						noMessages ? 'mt-10' : 'fixed bottom-0 left-1/2 transform -translate-x-1/2'
+						noMessages ? 'mt-10' : 'fixed bottom-10 left-1/2 transform -translate-x-1/2'
 					} w-full max-w-2xl flex justify-center px-4`}
 				>
-					<form onSubmit={handleSubmit} className='flex w-full bg-gray-800  rounded-lg p-2 gap-2'>
+					<form onSubmit={handleSubmit} className='flex w-full bg-gray-800  rounded-4xl p-2 gap-2'>
 						<input
-							className='flex-1 px-4 py-2 border rounded-md focus:outline-none text-white'
+							className='flex-1 px-4 py-2 border rounded-4xl focus:outline-none text-white'
 							onChange={handleInputChange}
 							value={input}
 							placeholder='Ask anything...'
 						/>
 						<button
 							type='submit'
-							className='px-4 py-2 bg-purple-800 text-white rounded-md hover:bg-purple-900 transition font-medium'
+							className='px-4 py-2 bg-purple-800 text-white rounded-4xl hover:bg-purple-900 transition font-medium'
 						>
 							Send
 						</button>

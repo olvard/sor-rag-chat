@@ -2,10 +2,10 @@ import PromptSuggestionButton from "./PrompSuggestionButton"
 
 const PromptSuggestionRow = ({ onPromptClick }) => {
 	const prompts = [
-		"Who is Haymitch?",
-		"Who is Betee?",
-		"What happends at the end of the book?",
-		"Give me some easter eggs from the book"
+		"Is Lenore Dove a Covey?",
+		"Who is Carmine?",
+		"Why does Haymitch call Katniss sweetheart?",
+		"Is Lucy Gray Baird dead?"
 	]
 	return (
 		<div className="">
