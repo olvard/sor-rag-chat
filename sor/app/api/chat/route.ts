@@ -1,4 +1,4 @@
-import OpenAI from "openai"
+//import OpenAI from "openai"
 import { streamText, embed } from 'ai';
 import { DataAPIClient } from "@datastax/astra-db-ts"
 import { openai } from '@ai-sdk/openai';
@@ -8,7 +8,6 @@ const {
 	ASTRA_DB_COLLECTION, 
 	ASTRA_DB_API_ENDPOINT, 
 	ASTRA_DB_APPLICATION_TOKEN, 
-	OPEN_API_KEY 
 } = process.env
 
 // const openai = new OpenAI({
