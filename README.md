@@ -14,8 +14,8 @@ Sunrise of the Reaping is a **Retrieval-Augmented Generation (RAG)** chatbot tha
 | Layer         | Tooling/Service                                  |
 |--------------|--------------------------------------------------|
 | Frontend     | [React](https://reactjs.org/), [Next.js](https://nextjs.org/), TypeScript |
-| Vector Store | [DataStax Astra DB](https://www.datastax.com/astra) (via Cassandra + vector search) |
-| RAG Engine   | [LangChain](https://www.langchain.com/) for document chunking and query management |
+| Vector Store | [DataStax Astra DB](https://www.datastax.com/astra) |
+| Text processing | [LangChain](https://www.langchain.com/) for document fetching and chunking |
 | Embeddings   | [OpenAI](https://platform.openai.com/) for embeddings & completions |
 | Deployment   | Vercel |
 
