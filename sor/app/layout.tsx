@@ -6,12 +6,15 @@ export const metadata = {
 	description: "Sunrise Of The Reaping GPT"
 }
 
-const RootLayout = ({children}) => {
-	return (
-		<html lang="en">
-			<body>{children}</body>
-		</html>
-	)
-}
+export default function RootLayout({
 
-export default RootLayout
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
+}
