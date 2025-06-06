@@ -21,7 +21,7 @@ Sunrise of the Reaping is a **Retrieval-Augmented Generation (RAG)** chatbot tha
 
 ## 🖼️ Screenshots
 
-![Home Screen](./screenshots/home.png)
+![Home Screen](home.png)
 
 ![Conversation](conversation.png)
 
